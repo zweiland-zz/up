@@ -73,7 +73,38 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-              
+
+              <SiteCard
+                siteImgUrl="/images/hd-site-thumb.png"
+                siteName="homedepot.com"
+                siteDomain="homedepot.com"
+                siteClass="homedepot"
+              />
+              <SiteCard
+                siteImgUrl="/images/sb-site-thumb.png"
+                siteName="starbucks.com"
+                siteDomain="starbucks.com"
+                siteClass="starbucks"
+              />
+              <SiteCard
+                siteImgUrl="/images/innout-site-thumb.png"
+                siteName="in-n-out.com"
+                siteDomain="in-n-out.com"
+                siteClass="inandout"
+              />
+              <SiteCard
+                siteImgUrl="/images/wholefoods-site-thumb.png"
+                siteName="wholefoodsmarket.com"
+                siteDomain="wholefoodsmarket.com"
+                siteClass="wholefoodsmarket"
+              />
+              <SiteCard
+                siteImgUrl="/images/mcdonalds-site-thumb.png"
+                siteName="mcdonalds.com"
+                siteDomain="mcdonalds.com"
+                siteClass="mcdonalds"
+              />
+           
             </div>
           </div>
         </div>

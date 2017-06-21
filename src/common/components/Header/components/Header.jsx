@@ -17,8 +17,8 @@ function Header(props) {
       <div className="container-fluid">
         <div className="navbar-header">
           <HeaderHomeLink />
-          <a id="menu-toggle" href="#" class="glyphicon glyphicon-menu-hamburger btn-menu toggle">
-            <i class="fa fa-bars"></i>
+          <a id="menu-toggle" href="#" className="glyphicon glyphicon-menu-hamburger btn-menu toggle">
+            <i className="fa fa-bars"></i>
           </a>
           <BrandLogo
             logoImgUrl="/images/bluehost-logo.png"
