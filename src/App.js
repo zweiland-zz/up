@@ -8,6 +8,8 @@ import TutorialsCard from './common/components/TutorialsCard/components/Tutorial
 import TipsCard from './common/components/TipsCard/components/TipsCard';
 import HelpCard from './common/components/HelpCard/components/HelpCard';
 import SingleBlogPost from './common/components/SingleBlogPost/components/SingleBlogPost';
+import Filters from './common/components/Filters/components/Filters';
+import Title from './common/components/Title/components/Title';
 
 import AdSpace from './common/components/AdSpace/components/AdSpace';
 import SiteCard from './common/components/SiteCard/components/SiteCard';
@@ -27,18 +29,8 @@ class App extends Component {
 
                 <div className="row">
                   <div className="col-md-12">
-                    <ul className="nav nav-pills pills-toggle right-nav hide">
-                      <li role="presentation" className="active">
-                        <a href="./#/"><span className="glyphicon glyphicon-th-large"></span></a>
-                      </li>
-                      <li role="presentation">
-                        <a href="./#/"><span className="glyphicon glyphicon-th-list"></span></a>
-                      </li>
-                      <li role="presentation">
-                        <a href="./#/">Advanced</a>
-                      </li>
-                    </ul>
-                    <h1 className="title">Welcome to Bluehost!</h1>
+                    <Filters />
+                    <Title />
                     <ul className="nav nav-tabs content-tabs hide">
                       <li><h1 className="page-title">Dashboard</h1></li>
                       <li role="presentation" className="active"><a href="./#/">For You</a></li>
@@ -81,19 +73,9 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-              <Grid>
-                <Row>
-                  <SiteCard
-                  />
-                </Row>
-              </Grid>
+              
             </div>
-              <ul className="demo-nav">
-                <li><a href="dash2.htm">Framework</a></li>
-                <li><a href="ipage.htm">iPage</a></li>
-                <li><a href="bluehost.htm">BlueHost</a></li>
-              </ul>
-            </div>
+          </div>
         </div>
       </div>
     );
