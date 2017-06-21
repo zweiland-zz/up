@@ -12,48 +12,48 @@ function SidebarMenu(props) {
       <nav id="spy">
         <ul className="nav nav-pills nav-stacked primary-nav">
           <li>
-              <a href="#home" className="active"><span className="glyphicon glyphicon-home" aria-hidden="true"></span> <span className="fa fa-home solo">Home</span></a>
+              <a href="./#/" className="active"><span className="glyphicon glyphicon-home" aria-hidden="true"></span> <span className="fa fa-home solo">Home</span></a>
           </li>
           <li>
-            <a href="#anch1">
+            <a href="./#/sites">
               <span className="glyphicon wordpress-logo">
-                <img src="img/wordpress-logo.png" alt="WP" />
+                <img src="/images/wordpress-logo.png" alt="WP" />
               </span>
               <span className="fa fa-anchor solo">WordPress</span>
             </a>
           </li>
           <li>
-            <a href="#anch2">
+            <a href="./#/marketplace">
               <i className="glyphicon glyphicon-tag" aria-hidden="true" />
               <span className="fa fa-anchor solo">Marketplace</span>
             </a>
           </li>
           <li>
-            <a href="#anch3">
+            <a href="./#/email">
               <i className="glyphicon glyphicon-envelope" aria-hidden="true" />
               <span className="fa fa-anchor solo">Email</span>
             </a>
           </li>
           <li>
-            <a href="#anch4">
+            <a href="./#/domains">
               <i className="glyphicon glyphicon-globe" aria-hidden="true" />
               <span className="fa fa-anchor solo">Domains</span>
             </a>
           </li>
           <li>
-            <a href="#anch4">
+            <a href="./#/advanced">
               <i className="glyphicon glyphicon-screenshot" aria-hidden="true" />
               <span className="fa fa-anchor solo">Advanced</span>
             </a>
           </li>
           <li>
-            <a href="#anch4">
+            <a href="./#/help">
               <i className="glyphicon glyphicon-record" aria-hidden="true" />
               <span className="fa fa-anchor solo">Help</span>
             </a>
           </li>
           <li>
-            <a href="#anch4">
+            <a href="./#/chat">
               <i className="glyphicon glyphicon-comment" aria-hidden="true" />
               <span className="fa fa-anchor solo">Live Chat</span>
             </a>
