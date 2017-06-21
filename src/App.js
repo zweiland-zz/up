@@ -30,7 +30,9 @@ class App extends Component {
                 <div className="row">
                   <div className="col-md-12">
                     <Filters />
-                    <Title />
+                    <Title
+                      dashTitle="Welcome To Bluehost!"
+                    />
                     <ul className="nav nav-tabs content-tabs hide">
                       <li><h1 className="page-title">Dashboard</h1></li>
                       <li role="presentation" className="active"><a href="./#/">For You</a></li>
