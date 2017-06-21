@@ -81,11 +81,7 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-              <Grid>
-                <Row>
-
-                </Row>
-              </Grid>
+              <SiteCard />
             </div>
             </div>
         </div>
