@@ -63,30 +63,30 @@ class App extends Component {
                       </div>
                   </div>
                 </div>
-                  <div className="row">
-                    <div className="col-md-4">
-                      <TutorialsCard />
-                    </div>
-                    <div className="col-md-8">
-                      <TipsCard />
-                    </div>
+                <div className="row">
+                  <div className="col-md-4">
+                    <TutorialsCard />
                   </div>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <HelpCard />
-                    </div>
-                    <div className="col-md-6">
-                      <SingleBlogPost />
-                    </div>
+                  <div className="col-md-8">
+                    <TipsCard />
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-6">
+                    <HelpCard />
+                  </div>
+                  <div className="col-md-6">
+                    <SingleBlogPost />
                   </div>
                 </div>
               </div>
-              <ul className="demo-nav">
-                <li><a href="dash2.htm">Framework</a></li>
-                <li><a href="ipage.htm">iPage</a></li>
-                <li><a href="bluehost.htm">BlueHost</a></li>
-              </ul>
             </div>
+            <ul className="demo-nav">
+              <li><a href="dash2.htm">Framework</a></li>
+              <li><a href="ipage.htm">iPage</a></li>
+              <li><a href="bluehost.htm">BlueHost</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     );
