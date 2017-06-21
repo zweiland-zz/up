@@ -33,3 +33,14 @@ html {
     padding: 8px;
   }
 }
+
+.site-thumb {
+  min-height: 165px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  img {
+    max-width: 100%;
+  }
+}

@@ -33,4 +33,12 @@ html {
   .adSpace .panel {
     padding: 8px; }
 
+.site-thumb {
+  min-height: 165px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .site-thumb img {
+    max-width: 100%; }
+
 /*# sourceMappingURL=App.css.map */

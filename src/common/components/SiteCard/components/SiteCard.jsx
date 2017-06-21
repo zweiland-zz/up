@@ -8,19 +8,23 @@ const propTypes = {
   siteDomain: string,
   siteClass: string,
 };
-// const defaultProps = {
-//   siteImgUrl: "/images/innout-site-thumb.png",
-//   siteName: "Site Name",
-//   siteDomain: "site-domain.com",
-//   siteClass: "site-name",
-// };
+const defaultProps = {
+  siteImgUrl: "/images/hd-site-thumb.png",
+  siteName: "Site Name",
+  siteDomain: "site-domain.com",
+  siteClass: "site-name",
+};
+const siteImgUrlStye = {
+  backgroundImage: 'url(' + this.siteImgUrl + ')'
+}
 
 function SiteCard(props) {
   return (
     <div className="col-md-4">
       <div className={"panel panel-default align-center domain-name " + props.siteClass + "-site"}>
         <div className="panel-heading">
-          <div className="site-thumb" />
+          <div className="site-thumb" style={siteImgUrlStye}>
+          </div>
         </div>
         <div className="panel-body">
           <h3>
