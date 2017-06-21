@@ -1,0 +1,221 @@
+/* IPAGE */
+
+/* hide the sidebar */
+
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica;
+}
+
+#wrapper.ipage {
+	margin: 0 auto;
+	max-width: 960px;
+	padding-left: 0;
+}
+
+#wrapper.ipage .ad-space {
+	/* background: center top url(../img/adbg.jpg) no-repeat;
+	background-size: cover; */
+	background-color: #fff;
+	color: #212121;
+	height: 96px;
+	line-height: 96px;
+}
+
+#wrapper.ipage .title {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 36px;
+	margin-top: 12px;
+}
+
+#wrapper.ipage .pills-toggle>li>a {
+	font-size: 12px;
+	font-weight: 600;
+	padding: 10px 5px;
+	text-transform: uppercase;
+}
+
+#wrapper.ipage .pills-toggle>li>a .glyphicon {
+	font-size: 16px;
+}
+
+#wrapper.ipage .pills-toggle>li.active a {
+	color: #26ce61;
+}
+
+#wrapper.ipage .header-account-nav img {
+	border-radius: 60px;
+	box-shadow: 0 1px 3px rgba(0,0,5, .5);
+    position: absolute;
+    left: -24px;
+    top: 9px;
+    width: 30px;
+}
+
+#wrapper.ipage .alt-header-nav {
+	margin-right: 34px;
+}
+
+#wrapper.ipage .alt-header-nav .glyphicon {
+	font-size: 16px;
+}
+
+#wrapper.ipage #sidebar-wrapper {
+	display: none;
+}
+
+.panel-default {
+	height: 343px;
+}
+
+.panel-default.domain-options, .panel-default.ad-space {
+	height: auto;
+}
+
+.navbar-inverse {
+  background-color: #26ce61;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #fff;
+}
+
+.panel-heading {
+	background-color: #fff;
+	padding: 0;
+}
+
+.panel-footer {
+	background-color: #fff;
+}
+
+.panel-footer .expiration {
+
+}
+
+.panel-body {
+	height: 134px;
+	padding: 0 15px;
+}
+
+.domain-options .panel-heading {
+	border-bottom: 0;
+}
+
+.domain-options .panel-heading, .domain-options .panel-footer {
+	background-color: #fff;
+	font-size: 18px;
+	line-height: 155px;
+}
+
+.domain-options .panel-heading a, .domain-options .panel-footer a {
+	color: #212121;
+}
+
+.domain-options .panel-body {
+	height: auto;
+	text-transform: uppercase;
+}
+
+.domain-name h3 a {
+	color: #212121;
+}
+
+.domain-name ul {
+	margin-bottom: 14px;
+}
+
+.domain-name .manage {
+	color: #0288d1;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.domain-split {
+	margin-bottom: -10px;
+	padding: 0;
+}
+
+.domain-split span {
+	background-color: #fff;
+	color: #999;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.site-thumb {
+	height: 165px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hd-site .site-thumb {
+	background-image: url(../img/hd-site-thumb.png);
+
+}
+
+.sb-site .site-thumb {
+	background-image: url(../img/sb-site-thumb.png);
+}
+
+.innout-site .site-thumb {
+	background-image: url(../img/innout-site-thumb.png);
+}
+
+.wholefoods-site .site-thumb {
+	background-image: url(../img/wholefoods-site-thumb.png);
+}
+
+.mcdonalds-site .site-thumb {
+	background-image: url(../img/mcdonalds-site-thumb.png);
+}
+
+.nav-pills.site-status {
+	text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.nav-pills.site-status>li {
+	display: inline-block;
+	float: none;
+}
+
+.nav-pills.site-status>li>a {
+	border-bottom: 1px solid #999;
+	border-radius: 0;
+	color: #999;
+	font-weight: 600;
+	margin: 0 4px;
+	padding: 2px 0;
+}
+
+.nav-pills.site-status>li.active>a,
+.nav-pills.site-status>li.active>a:focus,
+.nav-pills.site-status>li.active>a:hover {
+	background-color: #fff;
+	border-bottom-color: #26ce61;
+	color: #212121;
+}
+
+
+@media (max-width:767px) {
+
+.navbar-brand.home-link {
+    margin-right: 0;
+}
+
+.domain-options .panel-heading, .domain-options .panel-footer {
+	line-height: 44px;
+}
+
+.domain-options .panel-heading {
+	padding-top: 10px;
+}
+
+#wrapper.ipage .ad-space {
+	background-position: center top;
+}
+
+}
