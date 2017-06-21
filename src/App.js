@@ -81,11 +81,6 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-              <ul className="demo-nav">
-                <li><a href="dash2.htm">Framework</a></li>
-                <li><a href="ipage.htm">iPage</a></li>
-                <li><a href="bluehost.htm">BlueHost</a></li>
-              </ul>
             </div>
         </div>
       </div>
