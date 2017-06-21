@@ -19,7 +19,11 @@ function Header(props) {
               <span className="glyphicon glyphicon-home home-link" />
             </a>
           </div>
-          <BrandLogo />
+          <BrandLogo
+            logoImgUrl="/images/bluehost-logo.png"
+            logoAlt="Bluehost"
+            logoHeight="34"
+           />
         </div>
         <div id="navbar" className="collapse navbar-collapse">
           <ul className="nav navbar-nav right-nav">

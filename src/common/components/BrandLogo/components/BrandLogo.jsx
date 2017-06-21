@@ -3,14 +3,16 @@ import PropTypes from 'prop-types';
 
 const { string } = PropTypes;
 const propTypes = {
-
+  logoImgUrl: string.isRequired,
+  logoAlt: string.isRequired,
+  logoHeight: string,
 };
 
 function BrandLogo(props) {
   return (
     <div className="navbar-brand">
       <a id="menu-toggle" className="logo" href="./#/">
-        <img src="/images/bluehost-logo.png" alt="Bluehost" height="34" />
+        <img src={props.logoImgUrl} alt={props.logoAlt} height={props.logoHeight} />
       </a>
     </div>
   );

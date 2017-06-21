@@ -12,7 +12,10 @@ function SidebarMenu(props) {
       <nav id="spy">
         <ul className="nav nav-pills nav-stacked primary-nav">
           <li>
-              <a href="./#/" className="active"><span className="glyphicon glyphicon-home" aria-hidden="true"></span> <span className="fa fa-home solo">Home</span></a>
+            <a href="./#/" className="active">
+              <span className="glyphicon glyphicon-home" aria-hidden="true" />
+              <span className="fa fa-home solo">Home</span>
+            </a>
           </li>
           <li>
             <a href="./#/sites">

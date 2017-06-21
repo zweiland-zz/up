@@ -13,8 +13,6 @@ body {
 }
 
 #wrapper.ipage .ad-space {
-	/* background: center top url(../img/adbg.jpg) no-repeat;
-	background-size: cover; */
 	background-color: #fff;
 	color: #212121;
 	height: 96px;
@@ -151,24 +149,24 @@ body {
 }
 
 .hd-site .site-thumb {
-	background-image: url(../img/hd-site-thumb.png);
+	background-image: url(/images/hd-site-thumb.png);
 
 }
 
 .sb-site .site-thumb {
-	background-image: url(../img/sb-site-thumb.png);
+	background-image: url(/images/sb-site-thumb.png);
 }
 
 .innout-site .site-thumb {
-	background-image: url(../img/innout-site-thumb.png);
+	background-image: url(/images/innout-site-thumb.png);
 }
 
 .wholefoods-site .site-thumb {
-	background-image: url(../img/wholefoods-site-thumb.png);
+	background-image: url(/images/wholefoods-site-thumb.png);
 }
 
 .mcdonalds-site .site-thumb {
-	background-image: url(../img/mcdonalds-site-thumb.png);
+	background-image: url(/images/mcdonalds-site-thumb.png);
 }
 
 .nav-pills.site-status {
