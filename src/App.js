@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { } from 'react-bootstrap';
+import { Grid, Row } from 'react-bootstrap';
 
 import Header from './common/components/Header/components/Header';
 import SidebarMenu from './common/components/SidebarMenu/components/SidebarMenu';
@@ -10,6 +10,7 @@ import HelpCard from './common/components/HelpCard/components/HelpCard';
 import SingleBlogPost from './common/components/SingleBlogPost/components/SingleBlogPost';
 
 import AdSpace from './common/components/AdSpace/components/AdSpace';
+import SiteCard from './common/components/SiteCard/components/SiteCard';
 
 class App extends Component {
   render() {
@@ -80,13 +81,19 @@ class App extends Component {
                   </div>
                 </div>
               </div>
+              <Grid>
+                <Row>
+                  <SiteCard
+                  />
+                </Row>
+              </Grid>
             </div>
-            <ul className="demo-nav">
-              <li><a href="dash2.htm">Framework</a></li>
-              <li><a href="ipage.htm">iPage</a></li>
-              <li><a href="bluehost.htm">BlueHost</a></li>
-            </ul>
-          </div>
+              <ul className="demo-nav">
+                <li><a href="dash2.htm">Framework</a></li>
+                <li><a href="ipage.htm">iPage</a></li>
+                <li><a href="bluehost.htm">BlueHost</a></li>
+              </ul>
+            </div>
         </div>
       </div>
     );

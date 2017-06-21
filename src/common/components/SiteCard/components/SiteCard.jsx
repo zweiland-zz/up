@@ -3,45 +3,51 @@ import PropTypes from 'prop-types';
 
 const { string } = PropTypes;
 const propTypes = {
-  siteImgUrl: string.isRequired,
-  siteName: string.isRequired,
+  siteImgUrl: string,
+  siteName: string,
   siteDomain: string,
   siteClass: string,
 };
+// const defaultProps = {
+//   siteImgUrl: "/images/innout-site-thumb.png",
+//   siteName: "Site Name",
+//   siteDomain: "site-domain.com",
+//   siteClass: "site-name",
+// };
 
 function SiteCard(props) {
   return (
-    <div class="col-md-4">
-        <div class='panel panel-default align-center domain-name ${props.siteClass}-site'>
-          <div class="panel-heading">
-            <div class="site-thumb" />
-          </div>
-          <div class="panel-body">
-            <h3>
-              <a href="./#/">{props.siteDomain}</a>
-            </h3>
-            <ul class="nav nav-pills site-status">
-              <li role="presentation" class="active">
-                <a href="./#/">Live</a>
-              </li>
-              <li role="presentation">
-                <a href="./#/">Private</a>
-              </li>
-              <li role="presentation">
-                <a href="./#/">SSL</a>
-              </li>
-              <li role="presentation">
-                <a href="./#/">Renew</a>
-              </li>
-            </ul>
-            <p>external domain</p>
-          </div>
-          <div class="panel-footer">
-            <a class="manage" href="./#/">
-              <strong>Manage</strong>
-            </a>
-          </div>
-        </div>
+    <div className="col-md-4">
+      // <div className={"panel panel-default align-center domain-name " + props.siteClass + "-site"}>
+      //   <div className="panel-heading">
+      //     //<div className="site-thumb" style={"background-image: " + props.siteImgUrl} />
+      //   </div>
+      //   <div className="panel-body">
+      //     <h3>
+      //       <a href="./#/">{props.siteDomain}</a>
+      //     </h3>
+      //     <ul className="nav nav-pills site-status">
+      //       <li role="presentation" className="active">
+      //         <a href="./#/">Live</a>
+      //       </li>
+      //       <li role="presentation">
+      //         <a href="./#/">Private</a>
+      //       </li>
+      //       <li role="presentation">
+      //         <a href="./#/">SSL</a>
+      //       </li>
+      //       <li role="presentation">
+      //         <a href="./#/">Renew</a>
+      //       </li>
+      //     </ul>
+      //     <p>external domain</p>
+      //   </div>
+      //   <div className="panel-footer">
+      //     <a className="manage" href="./#/">
+      //       <strong>Manage</strong>
+      //     </a>
+      //   </div>
+      // </div>
     </div>
   );
 }
