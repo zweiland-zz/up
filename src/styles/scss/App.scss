@@ -8,3 +8,28 @@ html, body {
 html {
 	overflow-y: scroll;
 }
+
+// Typography
+.align-center {text-align: center;}
+
+// Margins
+.m0 {margin:0;}
+
+// Padding
+.p0 {padding:0;}
+.p1 {padding:4px;}
+.p2 {padding:8px;}
+.p3 {padding:16px;}
+
+.adSpace {
+  width: 100%;
+
+  .adSpace_title {
+    text-align: center;
+    margin: 0;
+  }
+
+  .panel {
+    padding: 8px;
+  }
+}

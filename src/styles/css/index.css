@@ -7,6 +7,32 @@ html, body {
 html {
   overflow-y: scroll; }
 
+.align-center {
+  text-align: center; }
+
+.m0 {
+  margin: 0; }
+
+.p0 {
+  padding: 0; }
+
+.p1 {
+  padding: 4px; }
+
+.p2 {
+  padding: 8px; }
+
+.p3 {
+  padding: 16px; }
+
+.adSpace {
+  width: 100%; }
+  .adSpace .adSpace_title {
+    text-align: center;
+    margin: 0; }
+  .adSpace .panel {
+    padding: 8px; }
+
 /*
  * Base structure
  */

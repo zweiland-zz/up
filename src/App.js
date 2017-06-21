@@ -9,16 +9,21 @@ import TipsCard from './common/components/TipsCard/components/TipsCard';
 import HelpCard from './common/components/HelpCard/components/HelpCard';
 import SingleBlogPost from './common/components/SingleBlogPost/components/SingleBlogPost';
 
+import AdSpace from './common/components/AdSpace/components/AdSpace';
+
 class App extends Component {
   render() {
     return (
       <div className="app">
         <div className="bluehost" id="wrapper">
-        <Header />
-        <SidebarMenu />
-        <div id="page-content-wrapper">
-          <div className="page-content">
-            <div className="container-fluid">
+          <Header />
+          <SidebarMenu />
+          <div id="page-content-wrapper">
+            <div className="page-content">
+              <div className="container-fluid">
+
+                <AdSpace displayAdSpace />
+
                 <div className="row">
                   <div className="col-md-12">
                     <ul className="nav nav-pills pills-toggle right-nav hide">
@@ -58,30 +63,30 @@ class App extends Component {
                       </div>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="col-md-4">
-                    <TutorialsCard />
+                  <div className="row">
+                    <div className="col-md-4">
+                      <TutorialsCard />
+                    </div>
+                    <div className="col-md-8">
+                      <TipsCard />
+                    </div>
                   </div>
-                  <div className="col-md-8">
-                    <TipsCard />
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-6">
-                    <HelpCard />
-                  </div>
-                  <div className="col-md-6">
-                    <SingleBlogPost />
+                  <div className="row">
+                    <div className="col-md-6">
+                      <HelpCard />
+                    </div>
+                    <div className="col-md-6">
+                      <SingleBlogPost />
+                    </div>
                   </div>
                 </div>
               </div>
+              <ul className="demo-nav">
+                <li><a href="dash2.htm">Framework</a></li>
+                <li><a href="ipage.htm">iPage</a></li>
+                <li><a href="bluehost.htm">BlueHost</a></li>
+              </ul>
             </div>
-            <ul className="demo-nav">
-              <li><a href="dash2.htm">Framework</a></li>
-              <li><a href="ipage.htm">iPage</a></li>
-              <li><a href="bluehost.htm">BlueHost</a></li>
-            </ul>
-          </div>
         </div>
       </div>
     );

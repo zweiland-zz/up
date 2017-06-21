@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { } from 'react-router';
 
 import BrandLogo from '../../BrandLogo/components/BrandLogo';
+import HeaderHomeLink from './HeaderHomeLink';
+import NavProfile from './NavProfile';
 
 const { string } = PropTypes;
 const propTypes = {
@@ -14,11 +16,10 @@ function Header(props) {
     <nav className="navbar navbar-inverse navbar-fixed-top">
       <div className="container-fluid">
         <div className="navbar-header">
-          <div className="navbar-brand home-link hide">
-            <a href="./#/">
-              <span className="glyphicon glyphicon-home home-link" />
-            </a>
-          </div>
+          <HeaderHomeLink />
+          <a id="menu-toggle" href="#" class="glyphicon glyphicon-menu-hamburger btn-menu toggle">
+            <i class="fa fa-bars"></i>
+          </a>
           <BrandLogo
             logoImgUrl="/images/bluehost-logo.png"
             logoAlt="Bluehost"
@@ -42,11 +43,9 @@ function Header(props) {
                 <i className="glyphicon glyphicon-shopping-cart" aria-hidden="true" />
               </a>
             </li>
-            <li>
-              <a href="./#/">
-                <i className="glyphicon glyphicon-user" aria-hidden="true" />
-              </a>
-            </li>
+            <NavProfile
+              displayUserIcon
+             />
           </ul>
         </div>
       </div>
