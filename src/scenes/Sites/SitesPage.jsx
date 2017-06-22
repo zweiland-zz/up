@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { } from 'react-router-dom'
 
-import Header from '../components/Header/components/Header';
-import SidebarMenu from '../components/SidebarMenu/components/SidebarMenu';
-import Title from '../components/common/Title/components/Title';
+import Header from '../../components/Header/components/Header';
+import SidebarMenu from '../../components/SidebarMenu/components/SidebarMenu';
+import Title from '../../components/common/Title/components/Title';
 
-class AccountPage extends Component {
+class SitesPage extends Component {
   render() {
     return (
       <div className="app">
@@ -17,7 +17,7 @@ class AccountPage extends Component {
               <div className="container-fluid">
                 <div className="row">
                   <div className="col-md-12">
-                    <h1>Account</h1>
+                    <h1>My Sites</h1>
                   </div>
                 </div>
               </div>
@@ -29,4 +29,4 @@ class AccountPage extends Component {
   }
 }
 
-export default AccountPage;
+export default SitesPage;
