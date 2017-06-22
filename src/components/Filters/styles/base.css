@@ -1,8 +1,8 @@
 .pills-toggle a {
-  color: #212121;
+  color: #3b7ab7;
 }
 
 .pills-toggle li.active>a {
   background-color: transparent;
-  color: #3b7ab7;
+  color: #212121;
 }
