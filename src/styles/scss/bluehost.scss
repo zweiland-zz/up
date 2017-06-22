@@ -13,8 +13,8 @@ body {
 
 #wrapper .title {
 	font-size: 34px;
-    font-weight: 300;
-    margin-bottom: 30px;
+  font-weight: 300;
+  margin-bottom: 30px;
 }
 
 #wrapper .panel-default {
@@ -63,35 +63,6 @@ body {
 }
 
 
-
-.tips-panel ul {
-	padding: 0;
-}
-
-.tips-panel ul li {
-	background: top left url(/images/bulb.png) no-repeat;
-	background-size: 34px;
-	list-style: none;
-	padding-left: 44px;
-	padding-top: 5px;
-}
-
-.tips-panel ul p {
-	font-size: 14px;
-	line-height: 24px;
-}
-
-.tips-panel ul p strong {
-	font-size: 16px;
-}
-
-.help-center {
-	line-height: 60px;
-}
-
-.help-center h4 {
-	margin-bottom: 20px;
-}
 
 @media (min-width: 768px) {
 	#wrapper.bluehost {

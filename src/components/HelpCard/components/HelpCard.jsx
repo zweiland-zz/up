@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import '../styles/base.css';
+
 const { string } = PropTypes;
 const propTypes = {
-
 };
 
 function HelpCard(props) {

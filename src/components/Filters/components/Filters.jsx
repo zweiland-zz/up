@@ -7,7 +7,7 @@ const propTypes = {
 
 function Filters(props) {
   return (
-    <ul className="nav nav-pills pills-toggle right-nav">
+    <ul className="nav nav-pills pills-toggle right">
       <li role="presentation" className="active">
         <a href="./#/"><span className="glyphicon glyphicon-th-large"></span></a>
       </li>
