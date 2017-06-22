@@ -349,10 +349,6 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica;
   font-size: 16px; }
 
-#wrapper.bluehost .navbar-inverse {
-  background-color: #fff;
-  border-bottom: 1px solid #dce0e6; }
-
 #wrapper.bluehost #sidebar-wrapper {
   background: #fff;
   border-right: 1px solid #dce0e6;

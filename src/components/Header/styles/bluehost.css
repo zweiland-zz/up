@@ -1,0 +1,9 @@
+/*
+  Bluehost
+  HEADER STYLES ONLY
+*/
+
+#wrapper .navbar-inverse {
+	background-color: blue;
+	border-bottom: 1px solid #dce0e6;
+}

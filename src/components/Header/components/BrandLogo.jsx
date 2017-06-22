@@ -11,7 +11,7 @@ const propTypes = {
 function BrandLogo(props) {
   return (
     <div className="navbar-brand">
-      <a id="menu-toggle" className="logo" href="./#/">
+      <a id="menu-toggle" className="logo" href="/">
         <img src={props.logoImgUrl} alt={props.logoAlt} height={props.logoHeight} />
       </a>
     </div>

@@ -1,10 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/css/index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import App from './App';
+import AccountPage from './scenes/AccountPage';
+
+import registerServiceWorker from './registerServiceWorker';
+
+ReactDOM.render((
+  <Router>
+    <div>
+      <Route exact path="/" component={App}/>
+      <Route path="/account" component={AccountPage}/>
+    </div>
+  </Router>
+), document.getElementById('root'))
 registerServiceWorker();

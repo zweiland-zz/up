@@ -1,0 +1,9 @@
+/*
+  iPage
+  HEADER STYLES ONLY
+*/
+
+#wrapper .navbar-inverse {
+	background-color: green;
+	border-bottom: 1px solid #dce0e6;
+}

@@ -1,32 +1,31 @@
 import React, { Component } from 'react';
 import { } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom'
 
-import Header from './common/components/Header/components/Header';
-import SidebarMenu from './common/components/SidebarMenu/components/SidebarMenu';
-import Welcome from './common/components/Welcome/components/Welcome';
-import TutorialsCard from './common/components/TutorialsCard/components/TutorialsCard';
-import TipsCard from './common/components/TipsCard/components/TipsCard';
-import HelpCard from './common/components/HelpCard/components/HelpCard';
-import SingleBlogPost from './common/components/SingleBlogPost/components/SingleBlogPost';
-import Filters from './common/components/Filters/components/Filters';
-import Title from './common/components/Title/components/Title';
+import Header from './components/Header/components/Header';
+import SidebarMenu from './components/SidebarMenu/components/SidebarMenu';
+import Welcome from './components/Welcome/components/Welcome';
+import TutorialsCard from './components/TutorialsCard/components/TutorialsCard';
+import TipsCard from './components/TipsCard/components/TipsCard';
+import HelpCard from './components/HelpCard/components/HelpCard';
+import SingleBlogPost from './components/SingleBlogPost/components/SingleBlogPost';
+import Filters from './components/Filters/components/Filters';
+import Title from './components/common/Title/components/Title';
 
-import AdSpace from './common/components/AdSpace/components/AdSpace';
-import SiteCard from './common/components/SiteCard/components/SiteCard';
+import AdSpace from './components/AdSpace/components/AdSpace';
+import SiteCard from './components/SiteCard/components/SiteCard';
 
 class App extends Component {
   render() {
     return (
       <div className="app">
-        <div className="bluehost" id="wrapper">
+        <div id="wrapper">
           <Header />
           <SidebarMenu />
           <div id="page-content-wrapper">
             <div className="page-content">
               <div className="container-fluid">
-
                 <AdSpace displayAdSpace />
-
                 <div className="row">
                   <div className="col-md-12">
                     <Filters />
@@ -106,7 +105,6 @@ class App extends Component {
                 siteDomain="mcdonalds.com"
                 siteClass="mcdonalds"
               />
-
             </div>
           </div>
         </div>

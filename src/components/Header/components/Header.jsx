@@ -2,13 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { } from 'react-router';
 
-import BrandLogo from '../../BrandLogo/components/BrandLogo';
+import "../styles/bluehost.css";
+// import "../styles/ipage.css";
+
+import BrandLogo from './BrandLogo';
 import HeaderHomeLink from './HeaderHomeLink';
 import NavProfile from './NavProfile';
 
-// const {} = PropTypes;
-const propTypes = {
-};
+const {} = PropTypes;
+const propTypes = {};
 
 function Header(props) {
   return (
@@ -28,17 +30,17 @@ function Header(props) {
         <div id="navbar" className="collapse navbar-collapse">
           <ul className="nav navbar-nav right-nav">
             <li>
-              <a href="./#/">
+              <a href="/search">
                 <i className="glyphicon glyphicon-search" aria-hidden="true" />
               </a>
             </li>
             <li>
-              <a href="./#/">
+              <a href="/activity">
                 <i className="glyphicon glyphicon-bell" aria-hidden="true" />
               </a>
             </li>
             <li>
-              <a href="./#/">
+              <a href="/cart">
                 <i className="glyphicon glyphicon-shopping-cart" aria-hidden="true" />
               </a>
             </li>
