@@ -1,0 +1,11 @@
+/*
+ *  Help Center Card
+*/
+
+.help-center {
+	line-height: 60px;
+}
+
+.help-center h4 {
+	margin-bottom: 20px;
+}
