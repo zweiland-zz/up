@@ -6,9 +6,8 @@ import BrandLogo from '../../BrandLogo/components/BrandLogo';
 import HeaderHomeLink from './HeaderHomeLink';
 import NavProfile from './NavProfile';
 
-const { string } = PropTypes;
+// const {} = PropTypes;
 const propTypes = {
-
 };
 
 function Header(props) {
@@ -17,9 +16,9 @@ function Header(props) {
       <div className="container-fluid">
         <div className="navbar-header">
           <HeaderHomeLink />
-          <a id="menu-toggle" href="#" className="glyphicon glyphicon-menu-hamburger btn-menu toggle">
-            <i className="fa fa-bars"></i>
-          </a>
+          <button id="menu-toggle" className="glyphicon glyphicon-menu-hamburger btn-menu toggle">
+            <i className="fa fa-bars" />
+          </button>
           <BrandLogo
             logoImgUrl="/images/bluehost-logo.png"
             logoAlt="Bluehost"

@@ -1,10 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const { string } = PropTypes;
-const propTypes = {
-
-};
+// const {} = PropTypes;
+// const propTypes = {};
 
 function SidebarMenu(props) {
   return (
@@ -67,5 +65,5 @@ function SidebarMenu(props) {
   );
 }
 
-SidebarMenu.propTypes = propTypes;
+// SidebarMenu.propTypes = propTypes;
 export default SidebarMenu;

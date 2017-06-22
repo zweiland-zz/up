@@ -3,13 +3,12 @@ import PropTypes from 'prop-types';
 
 const { string } = PropTypes;
 const propTypes = {
+  text: string
 };
 
 function Title(props) {
   return (
-    <div>
-      Title
-    </div>
+    <p />
   );
 }
 

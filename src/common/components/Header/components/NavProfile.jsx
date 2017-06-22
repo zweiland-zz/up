@@ -8,10 +8,10 @@ const arrowStyle = {
 
 const { string, bool } = PropTypes;
 const propTypes = {
-  displayProfilePic: true,
-  displayUserIcon: false,
-  displayWords: false,
-  displayArrow: false,
+  displayProfilePic: bool,
+  displayUserIcon: bool,
+  displayWords: bool,
+  displayArrow: bool,
   words: string
 };
 const defaultProps = {

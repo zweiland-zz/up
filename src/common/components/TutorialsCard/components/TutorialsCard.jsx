@@ -1,9 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const { string } = PropTypes;
+const { } = PropTypes;
 const propTypes = {
-
 };
 
 function TutorialsCard(props) {

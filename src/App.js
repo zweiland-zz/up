@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Row } from 'react-bootstrap';
+import { } from 'react-bootstrap';
 
 import Header from './common/components/Header/components/Header';
 import SidebarMenu from './common/components/SidebarMenu/components/SidebarMenu';
@@ -106,7 +106,7 @@ class App extends Component {
                 siteDomain="mcdonalds.com"
                 siteClass="mcdonalds"
               />
-           
+
             </div>
           </div>
         </div>

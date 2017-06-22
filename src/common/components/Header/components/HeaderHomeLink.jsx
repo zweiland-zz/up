@@ -4,7 +4,7 @@ import { } from 'react-router';
 
 const { bool } = PropTypes;
 const propTypes = {
-  displayHeaderHomeLink: false
+  displayHeaderHomeLink: bool
 };
 const defaultProps = {
   displayHeaderHomeLink: false,
@@ -12,14 +12,10 @@ const defaultProps = {
 
 function HeaderHomeLink(props) {
   return (
-    <div>
-      {props.displayHeaderHomeLink && (
-        <div className="navbar-brand home-link">
-          <a href="./#/">
-            <span className="glyphicon glyphicon-home home-link" />
-          </a>
-        </div>
-      )}
+    <div className={"navbar-brand home-link " + props.displayHeaderHomeLink && "hide"}>
+      <a href="./#/">
+        <span className="glyphicon glyphicon-home home-link" />
+      </a>
     </div>
   );
 }
