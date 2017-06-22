@@ -8,6 +8,7 @@ import { NavLink } from 'react-router-dom';
 import BrandLogo from './BrandLogo';
 import HeaderHomeLink from './HeaderHomeLink';
 import NavProfile from './NavProfile';
+import Icon from '../../common/Icon/Icon';
 
 const {} = PropTypes;
 const propTypes = {};
@@ -22,31 +23,29 @@ function Header(props) {
             <i className="fa fa-bars" />
           </button>
           <BrandLogo
-            logoImgUrl="/images/bluehost-logo.png"
+            logoImgUrl="/images/bluehost-logo.svg"
             logoAlt="Bluehost"
-            logoHeight="34"
+            logoHeight="24"
            />
         </div>
         <div id="navbar" className="collapse navbar-collapse">
           <ul className="nav navbar-nav right-nav">
             <li>
               <NavLink to="/search">
-                <i className="glyphicon glyphicon-search" aria-hidden="true" />
+                <Icon iconName="search" />
               </NavLink>
             </li>
             <li>
               <NavLink to="/activity">
-                <i className="glyphicon glyphicon-bell" aria-hidden="true" />
+                <Icon iconName="bell" />
               </NavLink>
             </li>
             <li>
               <NavLink to="/cart">
-                <i className="glyphicon glyphicon-shopping-cart" aria-hidden="true" />
+                <Icon iconName="shopping-cart" />
               </NavLink>
             </li>
-            <NavProfile
-              displayUserIcon
-             />
+            <NavProfile displayUserIcon />
           </ul>
         </div>
       </div>
