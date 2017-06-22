@@ -25,26 +25,9 @@ html {
 .p3 {
   padding: 16px; }
 
-.adSpace {
-  width: 100%; }
-  .adSpace .adSpace_title {
-    text-align: center;
-    margin: 0; }
-  .adSpace .panel {
-    padding: 8px; }
-
-.site-thumb {
-  min-height: 165px;
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .site-thumb img {
-    max-width: 100%; }
-
 /*
- * Base structure
+ *  Base
  */
-/* Move down content because we have a fixed navbar that is 50px tall */
 body {
   background-color: #f5f5f5;
   padding-top: 50px; }
@@ -55,13 +38,6 @@ body {
 .sub-header {
   padding-bottom: 10px;
   border-bottom: 1px solid #eee; }
-
-/*
- * Top navigation
- * Hide default border to remove 1px line.
- */
-.navbar-fixed-top {
-  border: 0; }
 
 /*
  * Sidebar
@@ -134,16 +110,6 @@ body {
 /*
 * Custom
 */
-.navbar-inverse {
-  background-color: #fff; }
-
-.navbar-toggle {
-  display: inline;
-  float: left; }
-
-.page-header {
-  border-bottom: none; }
-
 .nav-sidebar > li > a {
   color: #212121; }
 
@@ -154,13 +120,16 @@ body {
   background-color: transparent;
   color: #3b7ab7; }
 
+.align-left {
+  text-align: left; }
+
 .align-right {
   text-align: right; }
 
 .align-center {
   text-align: center; }
 
-.right-nav {
+.right {
   float: right; }
 
 .hide {
@@ -231,22 +200,6 @@ body {
   text-decoration: none;
   background-color: #e4e4e4; }
 
-  /*
-.sidebar-nav > .sidebar-brand {
-  height: 65px;
-  line-height: 60px;
-  font-size: 18px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-  color: #999999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
-  background: none;
-}
-*/
 .nav.primary-nav > li > a {
   padding: 14px 24px; }
 
@@ -268,11 +221,6 @@ body {
 
 .account-nav .account-info {
   font-size: 12px; }
-
-#menu-toggle {
-  text-decoration: none;
-  float: left;
-  padding-right: 15px; }
 
 .content-tabs {
   margin-bottom: 24px; }
@@ -296,16 +244,6 @@ body {
   border-bottom: 4px solid #212121;
   color: #212121;
   font-weight: 800; }
-
-.navbar-brand.home-link {
-  margin-right: 15px; }
-
-.navbar-brand.home-link, .navbar-brand.home-link:hover, .navbar-brand.home-link span {
-  background-color: #4f5358; }
-
-.navbar-brand.home-link a, .navbar-brand.home-link a:hover {
-  background-color: #4f5358;
-  color: #fff; }
 
 .demo-nav {
   background: #fff;
@@ -342,121 +280,5 @@ body {
 
   #menu-toggle {
     display: inline-block; } }
-/* BLUEHOST */
-body {
-  background-color: #f4f7f9;
-  color: #5c5c5c;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica;
-  font-size: 16px; }
-
-#wrapper #page-content-wrapper {
-  padding-top: 54px; }
-
-#wrapper.bluehost .title {
-  font-size: 34px;
-  font-weight: 300;
-  margin-bottom: 30px; }
-
-#wrapper.bluehost .panel-default {
-  border-color: #dce0e6;
-  box-shadow: 0 1px 2px #dce0e6; }
-
-#wrapper.bluehost .panel .panel-body {
-  padding: 30px 36px; }
-
-#wrapper.bluehost .panel.primary-cta p {
-  margin-bottom: 24px; }
-
-#wrapper.bluehost .panel.sub-cta .panel-body {
-  padding: 15px 20px; }
-
-#wrapper.bluehost .panel.sub-cta h4 {
-  line-height: 34px; }
-
-#wrapper.bluehost .panel.sub-cta a {
-  color: #5c5c5c; }
-
-#wrapper.bluehost .panel.sub-cta .glyphicon {
-  font-size: 22px;
-  margin-right: 12px; }
-
-#wrapper.bluehost .panel.primary-cta .btn-primary {
-  margin-right: 20px;
-  padding: 10px 20px; }
-
-#wrapper.bluehost .btn-default {
-  border-color: #3977d0;
-  color: #3977d0;
-  padding: 10px 20px; }
-
-#wrapper.bluehost .btn-primary {
-  padding: 10px 20px; }
-
-.video-well {
-  background-image: url(/images/video-preview.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 125px; }
-
-.tips-panel ul {
-  padding: 0; }
-
-.tips-panel ul li {
-  background: top left url(/images/bulb.png) no-repeat;
-  background-size: 34px;
-  list-style: none;
-  padding-left: 44px;
-  padding-top: 5px; }
-
-.tips-panel ul p {
-  font-size: 14px;
-  line-height: 24px; }
-
-.tips-panel ul p strong {
-  font-size: 16px; }
-
-.help-center {
-  line-height: 60px; }
-
-.help-center h4 {
-  margin-bottom: 20px; }
-
-@media (min-width: 768px) {
-  #wrapper.bluehost {
-    padding-left: 264px;
-    padding-right: 12px; }
-
-  #wrapper.bluehost .panel.content-well {
-    height: 298px; }
-
-  #wrapper.bluehost .panel.primary-cta {
-    line-height: 26px; }
-
-  #wrapper.bluehost .navbar-brand {
-    height: 75px;
-    line-height: 40px; }
-
-  .navbar > .container .navbar-brand,
-  .navbar > .container-fluid .navbar-brand {
-    margin-left: -4px; }
-
-  .navbar-nav > li > a {
-    font-size: 24px;
-    padding-top: 25px;
-    padding-bottom: 25px; }
-
-  .content-well img {
-    margin-left: -15px;
-    margin-top: 5px; } }
-@media (max-width: 767px) {
-  #wrapper.bluehost .panel.primary-cta a {
-    display: block; }
-
-  #wrapper.bluehost #sidebar-wrapper {
-    top: 51px; }
-
-  #wrapper.bluehost #page-content-wrapper {
-    padding-top: 24px; } }
 
 /*# sourceMappingURL=index.css.map */

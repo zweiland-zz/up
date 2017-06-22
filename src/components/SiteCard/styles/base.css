@@ -1,0 +1,38 @@
+/*
+ *  Site Thumb Styles
+*/
+
+.site-thumb {
+  min-height: 165px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-pills.site-status {
+	text-align: center;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.nav-pills.site-status>li {
+	display: inline-block;
+	float: none;
+}
+
+.nav-pills.site-status>li>a {
+	border-bottom: 1px solid #999;
+	border-radius: 0;
+	color: #999;
+	font-weight: 600;
+	margin: 0 4px;
+	padding: 2px 0;
+}
+
+.nav-pills.site-status>li.active>a,
+.nav-pills.site-status>li.active>a:focus,
+.nav-pills.site-status>li.active>a:hover {
+	background-color: #fff;
+	border-bottom-color: #26ce61;
+	color: #212121;
+}

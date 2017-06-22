@@ -1,0 +1,65 @@
+/*
+  UP Base
+  Header Styles
+*/
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+.navbar-inverse {
+  background-color: #fff;
+  border-bottom: 0;
+}
+
+.navbar-toggle {
+  display: inline;
+  float: left;
+}
+
+.page-header {
+  border-bottom: none;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: inherit;
+  background-color: transparent;
+}
+
+
+/* Menu Toggle */
+#menu-toggle {
+  color: #3b7ab7;
+  text-decoration: none;
+  float: left;
+  border: 0;
+  padding: 0 15px 0 0;
+  background-color: transparent;
+}
+#menu-toggle:hover {
+  color: #23527c;
+}
+#menu-toggle:focus {
+  outline: none;
+}
+
+
+/* Navbar Homelink */
+.navbar-brand.home-link {
+  margin-right: 15px;
+}
+.navbar-brand.home-link,
+.navbar-brand.home-link:hover,
+.navbar-brand.home-link span {
+  background-color: #4f5358;
+}
+.navbar-brand.home-link a,
+.navbar-brand.home-link a:hover {
+  background-color: #4f5358;
+  color: #fff;
+}

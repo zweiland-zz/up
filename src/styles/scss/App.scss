@@ -20,27 +20,3 @@ html {
 .p1 {padding:4px;}
 .p2 {padding:8px;}
 .p3 {padding:16px;}
-
-.adSpace {
-  width: 100%;
-
-  .adSpace_title {
-    text-align: center;
-    margin: 0;
-  }
-
-  .panel {
-    padding: 8px;
-  }
-}
-
-.site-thumb {
-  min-height: 165px;
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  img {
-    max-width: 100%;
-  }
-}

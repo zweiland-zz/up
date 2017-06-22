@@ -11,64 +11,58 @@ body {
 	padding-top: 54px;
 }
 
-#wrapper.bluehost .title {
+#wrapper .title {
 	font-size: 34px;
     font-weight: 300;
     margin-bottom: 30px;
 }
 
-#wrapper.bluehost .panel-default {
+#wrapper .panel-default {
 	border-color: #dce0e6;
 	box-shadow: 0 1px 2px #dce0e6;
 }
 
-#wrapper.bluehost .panel .panel-body {
+#wrapper .panel .panel-body {
 	padding: 30px 36px;
 }
 
-#wrapper.bluehost .panel.primary-cta p {
+#wrapper .panel.primary-cta p {
 	margin-bottom: 24px;
 }
 
-#wrapper.bluehost .panel.sub-cta .panel-body {
+#wrapper .panel.sub-cta .panel-body {
 	padding: 15px 20px;
 }
 
-#wrapper.bluehost .panel.sub-cta h4 {
+#wrapper .panel.sub-cta h4 {
 	line-height: 34px;
 }
 
-#wrapper.bluehost .panel.sub-cta a {
+#wrapper .panel.sub-cta a {
 	color: #5c5c5c;
 }
 
-#wrapper.bluehost .panel.sub-cta .glyphicon {
+#wrapper .panel.sub-cta .glyphicon {
 	font-size: 22px;
 	margin-right: 12px;
 }
 
-#wrapper.bluehost .panel.primary-cta .btn-primary {
+#wrapper .panel.primary-cta .btn-primary {
 	margin-right: 20px;
 	padding: 10px 20px;
 }
 
-#wrapper.bluehost .btn-default {
+#wrapper .btn-default {
 	border-color: #3977d0;
 	color: #3977d0;
 	padding: 10px 20px;
 }
 
-#wrapper.bluehost .btn-primary {
+#wrapper .btn-primary {
 	padding: 10px 20px;
 }
 
-.video-well {
-	background-image: url(/images/video-preview.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 125px;
-}
+
 
 .tips-panel ul {
 	padding: 0;
@@ -110,7 +104,7 @@ body {
 	#wrapper.bluehost .panel.primary-cta {
 	line-height: 26px;
 	}
-	#wrapper.bluehost .navbar-brand {
+	#wrapper .navbar-brand {
 		height: 75px;
 		line-height: 40px;
 	}
@@ -137,6 +131,6 @@ body {
 		top: 51px;
 	}
 	#wrapper.bluehost #page-content-wrapper {
-	padding-top: 24px;
-}
+		padding-top: 24px;
+	}
 }

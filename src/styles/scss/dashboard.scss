@@ -1,8 +1,7 @@
 /*
- * Base structure
+ *  Base
  */
 
-/* Move down content because we have a fixed navbar that is 50px tall */
 body {
   background-color: #f5f5f5;
   padding-top: 50px;
@@ -18,13 +17,6 @@ body {
   border-bottom: 1px solid #eee;
 }
 
-/*
- * Top navigation
- * Hide default border to remove 1px line.
- */
-.navbar-fixed-top {
-  border: 0;
-}
 
 /*
  * Sidebar
@@ -109,18 +101,7 @@ body {
 * Custom
 */
 
-.navbar-inverse {
-  background-color: #fff;
-}
 
-.navbar-toggle {
-  display: inline;
-  float: left;
-}
-
-.page-header {
-  border-bottom: none;
-}
 
 .nav-sidebar > li > a {
   color: #212121;
@@ -135,27 +116,26 @@ body {
   color: #3b7ab7;
 }
 
-.align-right {
-  text-align: right;
-}
 
-.align-center {
-  text-align: center;
-}
 
-.right-nav {
-  float: right;
-}
+// Utility
+.align-left   {text-align:left;}
+.align-right  {text-align:right;}
+.align-center {text-align:center;}
+.right        {float:right;}
+.hide         {display:none !important;}
 
-.hide {
-  display: none !important;
-}
 
+
+// Shell
 #wrapper {
   padding-left: 250px;
   transition: all 0.4s ease 0s;
 }
 
+
+
+// Sidebar Nav
 #sidebar-wrapper {
   margin-left: -250px;
   top: 51px;
@@ -226,22 +206,6 @@ body {
   text-decoration: none;
   background-color: #e4e4e4;
 }
-  /*
-.sidebar-nav > .sidebar-brand {
-  height: 65px;
-  line-height: 60px;
-  font-size: 18px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-  color: #999999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
-  background: none;
-}
-*/
 
 .nav.primary-nav>li>a {
   padding: 14px 24px;
@@ -275,12 +239,6 @@ body {
   font-size: 12px;
 }
 
-#menu-toggle {
-    text-decoration: none;
-    float: left;
-    padding-right: 15px;
-}
-
 .content-tabs {
   margin-bottom: 24px;
 }
@@ -288,7 +246,7 @@ body {
 .page-title {
   font-size: 24px;
   margin-right: 24px;
- margin-top: 3px;
+  margin-top: 3px;
 }
 
 .title {
@@ -306,19 +264,6 @@ body {
   border-bottom: 4px solid #212121;
   color: #212121;
   font-weight: 800;
-}
-
-.navbar-brand.home-link {
-  margin-right: 15px;
-}
-
-.navbar-brand.home-link, .navbar-brand.home-link:hover, .navbar-brand.home-link span {
-  background-color: #4f5358;
-}
-
-.navbar-brand.home-link a, .navbar-brand.home-link a:hover {
-  background-color: #4f5358;
-  color: #fff;
 }
 
 .demo-nav {

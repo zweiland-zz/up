@@ -1,0 +1,17 @@
+/*
+ *  Ad Space
+ *  Platform Styles
+*/
+
+.ad-space {
+  width: 100%;
+}
+
+.ad-space--title {
+  text-align: center;
+  margin: 0;
+}
+
+.ad-space .panel {
+  padding: 8px;
+}

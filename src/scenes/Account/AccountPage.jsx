@@ -3,7 +3,6 @@ import { } from 'react-router-dom'
 
 import Header from '../../components/Header/components/Header';
 import SidebarMenu from '../../components/SidebarMenu/components/SidebarMenu';
-import Title from '../../components/common/Title/components/Title';
 
 class AccountPage extends Component {
   render() {

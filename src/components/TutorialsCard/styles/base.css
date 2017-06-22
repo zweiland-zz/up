@@ -1,0 +1,13 @@
+/*
+ *  Tutorials Card
+ *  Platform Styles
+*/
+
+.video-well {
+	background-image: url(/images/video-preview.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 125px;
+  border: 0;
+}

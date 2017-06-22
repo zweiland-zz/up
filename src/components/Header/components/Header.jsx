@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
+import "../styles/base.css";
 // import "../styles/bluehost.css";
 // import "../styles/ipage.css";
 
@@ -10,26 +11,26 @@ import HeaderHomeLink from './HeaderHomeLink';
 import NavProfile from './NavProfile';
 import Icon from '../../common/Icon/Icon';
 
-const {} = PropTypes;
-const propTypes = {};
+// const {} = PropTypes;
+// const propTypes = {};
 
-function Header(props) {
+function Header() {
   return (
     <nav className="navbar navbar-inverse navbar-fixed-top">
       <div className="container-fluid">
         <div className="navbar-header">
-          <HeaderHomeLink />
-          <button id="menu-toggle" className="glyphicon glyphicon-menu-hamburger btn-menu toggle">
-            <i className="fa fa-bars" />
-          </button>
+          <HeaderHomeLink
+            showHeaderHomeLink
+          />
           <BrandLogo
-            logoImgUrl="/images/bluehost-logo.svg"
-            logoAlt="Bluehost"
-            logoHeight="24"
+            brandName="Brand Name"
+            logoImgUrl="/images/ipage-logo.svg"
+            logoAlt="iPage"
+            logoHeight="22"
            />
         </div>
         <div id="navbar" className="collapse navbar-collapse">
-          <ul className="nav navbar-nav right-nav">
+          <ul className="nav navbar-nav right">
             <li>
               <NavLink to="/search">
                 <Icon iconName="search" />
@@ -53,5 +54,5 @@ function Header(props) {
   );
 }
 
-Header.propTypes = propTypes;
+// Header.propTypes = propTypes;
 export default Header;
