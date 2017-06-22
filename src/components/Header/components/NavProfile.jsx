@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { NavLink } from 'react-router-dom';
 
 const arrowStyle = {
   fontSize: "10px"
@@ -24,7 +25,7 @@ const defaultProps = {
 function NavProfile(props) {
   return (
     <li>
-      <a href="/account">
+      <NavLink to="/account">
         {props.displayUserIcon && (
         <i className="glyphicon glyphicon-user" aria-hidden="true" />
         )}
@@ -39,7 +40,7 @@ function NavProfile(props) {
         {props.displayArrow && (
         <span className="glyphicon glyphicon-triangle-bottom" style={arrowStyle} />
         )}
-      </a>
+      </NavLink>
     </li>
   );
 }

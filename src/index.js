@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {
   BrowserRouter as Router,
-  Route,
-  Link
+  Route
 } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -18,7 +17,7 @@ ReactDOM.render((
   <Router>
     <div>
       <Route exact path="/" component={App}/>
-      <Route path="/account" component={AccountPage}/>
+      <Route exact path="/account" component={AccountPage}/>
     </div>
   </Router>
 ), document.getElementById('root'))

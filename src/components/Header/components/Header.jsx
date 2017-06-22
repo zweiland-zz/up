@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 import "../styles/bluehost.css";
 // import "../styles/ipage.css";
@@ -30,19 +30,19 @@ function Header(props) {
         <div id="navbar" className="collapse navbar-collapse">
           <ul className="nav navbar-nav right-nav">
             <li>
-              <a href="/search">
+              <NavLink to="/search">
                 <i className="glyphicon glyphicon-search" aria-hidden="true" />
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/activity">
+              <NavLink to="/activity">
                 <i className="glyphicon glyphicon-bell" aria-hidden="true" />
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/cart">
+              <NavLink to="/cart">
                 <i className="glyphicon glyphicon-shopping-cart" aria-hidden="true" />
-              </a>
+              </NavLink>
             </li>
             <NavProfile
               displayUserIcon

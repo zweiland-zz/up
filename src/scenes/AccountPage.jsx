@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom'
+import { } from 'react-router-dom'
 
 import Header from '../components/Header/components/Header';
 import SidebarMenu from '../components/SidebarMenu/components/SidebarMenu';
@@ -17,9 +17,7 @@ class AccountPage extends Component {
               <div className="container-fluid">
                 <div className="row">
                   <div className="col-md-12">
-                    <Title
-                      dashTitle="Account Page"
-                    />
+                    <h1>Account</h1>
                   </div>
                 </div>
               </div>

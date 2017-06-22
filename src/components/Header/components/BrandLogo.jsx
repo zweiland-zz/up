@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { NavLink } from 'react-router-dom';
 
 const { string } = PropTypes;
 const propTypes = {
@@ -11,9 +12,9 @@ const propTypes = {
 function BrandLogo(props) {
   return (
     <div className="navbar-brand">
-      <a id="menu-toggle" className="logo" href="/">
+      <NavLink to="/" className="logo" id="menu-toggle">
         <img src={props.logoImgUrl} alt={props.logoAlt} height={props.logoHeight} />
-      </a>
+      </NavLink>
     </div>
   );
 }

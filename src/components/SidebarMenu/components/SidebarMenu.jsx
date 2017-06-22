@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { NavLink } from 'react-router-dom';
+
+import '../styles/bluehost.css';
 
 const {} = PropTypes;
 const propTypes = {
-  
+
 };
 
 function SidebarMenu(props) {
@@ -12,54 +15,54 @@ function SidebarMenu(props) {
       <nav id="spy">
         <ul className="nav nav-pills nav-stacked primary-nav">
           <li>
-            <a href="/" className="active">
+            <NavLink to="/" className="active">
               <span className="glyphicon glyphicon-home" aria-hidden="true" />
               <span className="fa fa-home solo">Home</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/sites">
+            <NavLink to="/sites">
               <span className="glyphicon wordpress-logo">
                 <img src="/images/wordpress-logo.png" alt="WP" />
               </span>
-              <span className="fa fa-anchor solo">WordPress</span>
-            </a>
+              <span className="fa fa-anchor solo">My Sites</span>
+            </NavLink>
           </li>
           <li>
-            <a href="/marketplace">
+            <NavLink to="/marketplace">
               <i className="glyphicon glyphicon-tag" aria-hidden="true" />
               <span className="fa fa-anchor solo">Marketplace</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/email">
+            <NavLink to="/email">
               <i className="glyphicon glyphicon-envelope" aria-hidden="true" />
               <span className="fa fa-anchor solo">Email</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/domains">
+            <NavLink to="/domains">
               <i className="glyphicon glyphicon-globe" aria-hidden="true" />
               <span className="fa fa-anchor solo">Domains</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/advanced">
+            <NavLink to="/advanced">
               <i className="glyphicon glyphicon-screenshot" aria-hidden="true" />
               <span className="fa fa-anchor solo">Advanced</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/help">
+            <NavLink to="/help">
               <i className="glyphicon glyphicon-record" aria-hidden="true" />
               <span className="fa fa-anchor solo">Help</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/chat">
+            <NavLink to="/chat">
               <i className="glyphicon glyphicon-comment" aria-hidden="true" />
               <span className="fa fa-anchor solo">Live Chat</span>
-            </a>
+            </NavLink>
           </li>
         </ul>
       </nav>
