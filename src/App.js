@@ -10,7 +10,7 @@ import TipsCard from './components/TipsCard/components/TipsCard';
 import HelpCard from './components/HelpCard/components/HelpCard';
 import SingleBlogPost from './components/SingleBlogPost/components/SingleBlogPost';
 import Filters from './components/Filters/components/Filters';
-import Title from './components/common/Title/components/Title';
+import Title from './components/Title/components/Title';
 
 import AdSpace from './components/AdSpace/components/AdSpace';
 import SiteCard from './components/SiteCard/components/SiteCard';
@@ -28,7 +28,8 @@ class App extends Component {
                 <AdSpace displayAdSpace />
                 <div className="row">
                   <div className="col-md-12">
-                    <Filters />
+                    <Filters
+                    />
                     <Title
                       dashTitle="Welcome To Bluehost!"
                     />
