@@ -29,6 +29,9 @@ class App extends Component {
                 <div className="row">
                   <div className="col-md-12">
                     <Filters
+                      filterLabel="Tab One"
+                      filterLabelTwo="Tab Two"
+                      filterLabelThree="Tab Three"
                     />
                     <Title
                       dashTitle="Welcome To Bluehost!"
