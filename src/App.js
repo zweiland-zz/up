@@ -16,7 +16,7 @@ import AdSpace from './components/AdSpace/components/AdSpace';
 import SiteCard from './components/SiteCard/components/SiteCard';
 
 class App extends Component {
-  render() {
+  render(props) {
     return (
       <div className="app">
         <div id="wrapper">

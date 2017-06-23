@@ -12,7 +12,7 @@ const defaultProps = {
 
 function HeaderHomeLink(props) {
   return (
-    <div className={"navbar-brand home-link"}> {/* + (props.showHeaderHomeLink && "hide") */}
+    <div className={"navbar-brand home-link"+ (props.showHeaderHomeLink ? ' show' : ' hide')}>
       <a href="./#/">
         <span className="glyphicon glyphicon-home home-link" />
       </a>

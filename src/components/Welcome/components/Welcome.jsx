@@ -1,24 +1,25 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { NavLink } from 'react-router-dom';
 
-// const { } = PropTypes;
-const propTypes = {
-};
+import Button from "../../common/Button/Button";
+import TextBlock from "../../common/TextBlock/TextBlock";
 
-function Welcome(props) {
-  return (
-    <div className="col-md-8">
-      <div className="panel panel-default primary-cta content-well">
-        <div className="panel-body">
-          <h2>Bluehost &amp; WordPress</h2>
-          <p>Bluehost has been recommended by WordPress for over ten years. To take the first step in creating your website, click the button below.</p>
-          <button type="button" className="btn btn-primary">Get Started on WordPress</button>
-          <a href="">Learn More</a>
+export default class Welcome extends React.Component {
+  render() {
+    return (
+      <div className="col-md-8">
+        <div className="panel panel-default primary-cta content-well">
+          <div className="panel-body">
+            <h2>Bluehost &amp; WordPress</h2>
+            <TextBlock
+              text="Bluehost has been recommended by WordPress for over ten years.
+              To take the first step in creating your website, click the button below."
+            />
+            <Button className="btn btn-primary" text="Get Started on WordPress" />
+            <NavLink to="/">Learn More</NavLink>
+          </div>
         </div>
       </div>
-    </div>
-  );
-}
-
-Welcome.propTypes = propTypes;
-export default Welcome;
+    );
+  };
+};

@@ -1,16 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const { string } = PropTypes;
-const propTypes = {
-  text: string
-};
-
-function Title(props) {
-  return (
-    <p />
-  );
+export default class Title extends React.Component {
+  render() {
+    return (
+      <h3 className={"font-size-"+this.props.tSize}>this.props.text</h3>
+    )
+  }
 }
-
-Title.propTypes = propTypes;
-export default Title;

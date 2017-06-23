@@ -10,15 +10,15 @@ const propTypes = {
   logoImgUrl: string.isRequired,
   logoAlt: string.isRequired,
   logoHeight: string,
-  displayLogoImg: bool,
+  showLogoImg: bool,
 };
 
 function BrandLogo(props) {
   return (
     <div className="navbar-brand">
-      <MenuToggle />
+      <MenuToggle showMenuToggle />
       <NavLink to="/" className="logo" id="menu-toggle">
-        {props.displayLogoImg && (
+        {props.showLogoImg && (
         <img src={props.logoImgUrl} alt={props.logoAlt} height={props.logoHeight} />
         )}
         <span>{props.brandName}</span>

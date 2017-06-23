@@ -6,17 +6,18 @@ import { } from 'react-router';
 
 const { bool } = PropTypes;
 const propTypes = {
-  displayToggle: bool
+  showMenuToggle: bool
 };
 const defaultProps = {
-  displayToggle: false,
+  showMenuToggle: false,
 }
 
 function MenuToggle(props) {
   return (
-    <button type="button" id="menu-toggle" className={"glyphicon glyphicon-menu-hamburger btn-menu toggle"}>  {/* + (props.displayToggle && "hide") */}
+    <button type="button" id="menu-toggle" className={"glyphicon glyphicon-menu-hamburger btn-menu toggle"+ (props.showMenuToggle ? ' show' : ' hide')}>
       <i className="fa fa-bars" />
     </button>
+
   );
 }
 
