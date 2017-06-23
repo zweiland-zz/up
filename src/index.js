@@ -21,9 +21,7 @@ import registerServiceWorker from './registerServiceWorker';
 ReactDOM.render((
   <Router>
     <div>
-      <Route exact path="/" component={App} render={(props) => (
-          <App {...props} data={props.bluehost=1}/>
-      )}/>
+      <Route exact path="/" component={App}/>
       <Route exact path="/account" component={AccountPage}/>
       <Route exact path="/sites" component={SitesPage}/>
       <Route exact path="/marketplace" component={MarketplacePage}/>
